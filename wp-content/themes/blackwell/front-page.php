@@ -92,7 +92,7 @@
 	   <?php } else { ?>
 		<a href="#"><h2><?php _e('your embed videos', 'blackwell'); ?></h2></a>
 	<?php } if (blackwell_get_option('blackwell_feature_desc2') != '') { ?>
-		<p><?php echo esc_attr(blackwell_get_option('blackwell_feature_desc2')); ?></h2>
+		<p><?php echo esc_attr(blackwell_get_option('blackwell_feature_desc2')); ?></h2></p>
 		<?php } else { ?>
 		<p><?php _e('There are a lot of ways that you can look at people and a lot of characteristics that you can choose to expect people to have. ', 'blackwell'); ?></p>				
 	<?php } ?>
@@ -117,7 +117,7 @@
 	   <?php } else { ?>
 		<a href="#"><h2><?php _e('Completely responsive', 'blackwell'); ?></h2></a>
 	<?php } if (blackwell_get_option('blackwell_feature_desc3') != '') { ?>
-		<p><?php echo esc_attr(blackwell_get_option('blackwell_feature_desc3')); ?></h2>
+		<p><?php echo esc_attr(blackwell_get_option('blackwell_feature_desc3')); ?></h2></p>
 		<?php } else { ?>
 		<p><?php _e('There are a lot of ways that you can look at people and a lot of characteristics that you can choose to expect people to have.', 'blackwell'); ?></p>				
 	<?php } ?>
