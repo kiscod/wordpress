@@ -22,14 +22,14 @@
                                 echo esc_url(blackwell_get_option('blackwell_top_imagelink'));
                             } ?>"><?php echo esc_attr(blackwell_get_option('blackwell_top_imageheading')); ?></a></h1>
                     <?php } else { ?>
-                        <h1><?php _e('雨滴教育欢迎您', 'blackwell'); ?></h1>
+                        <h1><?php _e('欢迎您', 'blackwell'); ?></h1>
                     <?php } ?>
                     <?php if (blackwell_get_option('blackwell_top_image_desc') != '') { ?>
                         <p>
                             <?php echo esc_attr(blackwell_get_option('blackwell_top_image_desc')); ?>
                         </p>
                     <?php } else { ?>
-                        <p><?php _e('这里是济南最大的教育培训基地，在这里，你将获得最全面最权威的教育培训。', 'blackwell'); ?></p>
+                        <p><?php _e('这里是，在这里，你将获得。', 'blackwell'); ?></p>
                     <?php } ?>
                 </div>
             </li>
@@ -44,7 +44,7 @@
                             <?php if (blackwell_get_option('blackwell_feature_heading') != '') { ?>
                                 <h1><?php echo esc_attr(blackwell_get_option('blackwell_feature_heading')); ?></h1>
                             <?php } else { ?>
-                                <h1><?php _e('我们为您提供最优质的服务', 'blackwell'); ?></h1>
+                                <h1><?php _e('我们为您提供最优质的', 'blackwell'); ?></h1>
                             <?php } ?>
                             <?php if (blackwell_get_option('blackwell_feature_desc') != '') { ?>
                                 <p><?php echo esc_attr(blackwell_get_option('blackwell_feature_desc')); ?></p>
