@@ -44,7 +44,7 @@
                             <?php if (blackwell_get_option('blackwell_feature_heading') != '') { ?>
                                 <h1><?php echo esc_attr(blackwell_get_option('blackwell_feature_heading')); ?></h1>
                             <?php } else { ?>
-                                <h1><?php _e('我们为您提供最优质的', 'blackwell'); ?></h1>
+                                <h1><?php _e('我们为您提供最优质的- -', 'blackwell'); ?></h1>
                             <?php } ?>
                             <?php if (blackwell_get_option('blackwell_feature_desc') != '') { ?>
                                 <p><?php echo esc_attr(blackwell_get_option('blackwell_feature_desc')); ?></p>
